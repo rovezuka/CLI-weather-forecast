@@ -27,19 +27,16 @@
 1. Склонируйте репозиторий:
 ```
 git clone https://github.com/rovezuka/CLI-application.git
-
 ```
 
 2. Перейдите в директорию проекта:
 ```
 cd CLI-application
-
 ```
 
 3. Установите зависимости:
 ```
 go get github.com/fatih/color
-
 ```
 
 4. В HTTP-запросе замените API в параметре "key" на личный
@@ -52,7 +49,6 @@ go build
 6. Запустите CLI приложение в командной строке:
 ```
 CLI-application Moscow 
-
 ```
 
 ## Использование
