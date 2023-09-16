@@ -1,4 +1,4 @@
-# Weather CLI application
+# Погодное CLI приложение
 
 Это CLI (Command Line Interface) приложение, разработанное на Go, позволяет вам получать актуальную погодную информацию для любого города в мире и просматривать прогноз погоды на весь день.
 
@@ -39,7 +39,10 @@ cd CLI-application
 go get github.com/fatih/color
 ```
 
-4. В HTTP-запросе замените API в параметре "key" на личный
+4. В HTTP-запросе замените API в параметре `key` на личный
+```
+http://api.weatherapi.com/v1/forecast.json?key=ВАШ_ЛИЧНЫЙ_API
+```
 
 5. Скомпилируйте проект:
 ```
